@@ -1,0 +1,11 @@
+[package]
+name = "game"
+version = "0.1.0"
+edition = "2021"
+
+[lints]
+workspace = true
+
+[dependencies]
+# https://bevyengine.org/learn/quick-start/getting-started/setup/#enable-fast-compiles-optional
+bevy = { workspace = true }
